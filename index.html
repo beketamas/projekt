@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Minimum kiválasztásos rendezés</title>
+</head>
+<body>
+    <h1>Minimumkiválasztásos rendezés</h1>
+    <table>
+        <th>Jellemzők:</th>
+        <tr>
+            <td>Működése:</td>
+            <td>A minimum kiválasztásos rendezés alapötlete a minimum keresést használja fel. <br> A rendezendő tömbben megkeressük a legkisebb elemet, majd ezt helyezzük a legelső indexre. <br> Ezt kihagyva ismét megkeressük a legkisebb elemet, amit aztán a második helyre teszünk, majd egészen addig ismételjük a folyamatot, amíg a tömb végére nem érünk.</td>
+        </tr>
+        <tr>
+            <td>Hatékonyság: </td>
+            <td>Az optimalizációnak köszönhetően a cserés rendezésnél gyorsabb nagyméretű tömbök rendezésében, azonban az algoritmus futási ideje még mindig a négyzeteshez közelít</td>
+        </tr>
+        <tr>
+            <td>Tárigény:</td>
+            <td>N+1, azaz O(N)</td>
+        </tr>
+        <tr>
+            <td>Összehasonlítások száma:</td>
+            <td>N*(N-1)/2, azaz O(N2)</td>
+        </tr>
+        <tr>
+            <td>Mozgatások száma:</td>
+            <td>3*(N-1)/2, azaz O(N)</td>
+        </tr>
+        <tr>
+            <th>Példa a inimumkiválasztásos rendezésre: </th>
+        </tr>
+        <tr>
+            <td><img class="kep1" src="projekt1.png" alt=""></td>
+            <td><img class="kep2" src="projekt2.png" alt=""></td>
+        </tr>
+    </table>
+</body>
+</html>
